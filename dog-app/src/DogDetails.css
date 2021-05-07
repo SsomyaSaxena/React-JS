@@ -1,0 +1,16 @@
+.DogDetails-card {
+    /* margin-top:2%; */
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    width:88%;
+  }
+  
+  .DogDetails-card img {
+    filter: grayscale();
+    height:22em;
+    transition: 0.3s filter ease;
+  }
+  .DogDetails-card:hover img {
+    filter: none;
+    height:22em;
+  }
+  
